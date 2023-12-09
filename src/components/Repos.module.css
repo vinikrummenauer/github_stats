@@ -1,0 +1,83 @@
+/* Repos.module.css */
+
+.repoItem {
+    background-color: #2b3566;
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .repoItem h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .repoItem p {
+    color: #9da5d1;
+    margin-bottom: 0.8rem;
+  }
+  
+  .repoItem .stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .repoItem .stats div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .repoItem .stats div svg {
+    fill: #9da5d1;
+    font-size: 1.5rem;
+    margin-right: 0.3rem;
+  }
+  
+  .repoItem .stats div span {
+    color: #9da5d1;
+    font-weight: bold;
+  }
+  
+  .repoItem a {
+    display: inline-block;
+    text-align: center;
+    background-color: #644aff;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.3s;
+    margin-top: 1rem;
+  }
+  
+  .repoItem a:hover {
+    opacity: 0.8;
+  }
+  
+  .stats {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: space-between;
+  }
+  
+  .stat {
+    display: flex;
+    align-items: center;
+  }
+  
+  .iconBg {
+    background-color: #4ed8c7;
+    opacity: 0.8;
+    border-radius: 5px;
+    padding: 8px;
+  }
+  
+  .value {
+    color: #9da5d1;
+    background-color: #2b3566;
+    border-radius: 5px;
+    padding: 6px;
+    margin-left: 5px;
+  }
